@@ -1,0 +1,30 @@
+
+@font-face {
+	font-family:avo_Italic;
+	src: url('./../fonts/UTM AvoItalic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+*{
+	color: black;
+}
+a{
+	color: black !important;
+}
+ul{
+	padding-inline-start: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	text-transform: uppercase;
+	padding: 0px 20px !important;
+}
+.navbar-collapse{
+	justify-content: flex-end !important;
+}
+.active{
+	color: #2980B9 !important ;
+}
